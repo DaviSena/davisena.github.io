@@ -273,6 +273,8 @@ img {
 
 .top-content {
   padding: 210px 0;
+  width: 100%;
+  height: 100%;
 }
 
 .top-content .text {
@@ -458,6 +460,9 @@ img {
 .portfolio-box h3:hover i {
   padding-left: 15px;
 }
+.portfolio-box .resume {
+  min-height: 290px;
+}
 .portfolio-box-date {
   padding-bottom: 10px;
   font-size: 14px;
@@ -546,4 +551,29 @@ footer {
 .curriculum-btn:hover {
   text-decoration: none;
   color: white;
+}
+
+ol.carousel-indicators {
+  position: relative;
+  bottom: 0;
+  margin: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  float: left;
+  height: 20px;
+  width: 20px;
+  border-radius: 15px;
+  margin: 3px;
+  margin-top: 0px;
+  border: solid 1px #444;
+  background: #ddd;
+}
+
+ol.carousel-indicators li.active {
+  background: #444;
 }

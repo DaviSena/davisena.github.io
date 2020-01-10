@@ -45,9 +45,6 @@ jQuery(document).ready(function() {
     $(".testimonials-container").backstretch("resize");
   });
 
-  /*
-        Wow
-    */
   new WOW().init();
 });
 
@@ -77,6 +74,9 @@ function contactScript(value) {
     messagingSenderId: "25671595035"
   };
   firebase.initializeApp(a);
+  $('.carousel').carousel({
+    interval: 0
+  })
   var b = firebase.database().ref("messages");
   $("#newContact").submit(function(a) {
     $(this), console.log("Submit to Firebase");
