@@ -45,6 +45,10 @@ jQuery(document).ready(function() {
     $(".testimonials-container").backstretch("resize");
   });
 
+  $.getJSON('lang/en.json', function(data) {
+    alert(data)
+  })
+
   new WOW().init();
 });
 
