@@ -45,9 +45,15 @@ jQuery(document).ready(function() {
     $(".testimonials-container").backstretch("resize");
   });
 
-  $.getJSON('lang/en.json', function(data) {
-    alert(data)
+  let langData = 'empty';
+  console.log('teste')
+  $.getJSON('https://davisena.github.io/assets/lang/en.json', function(data) {
+    langData = data;
+    $.each(langData, function(i, item){
+      $(`#${i}`).text(item)
+    })
   })
+
 
   new WOW().init();
 });
