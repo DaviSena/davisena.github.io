@@ -50,6 +50,7 @@ jQuery(document).ready(function() {
   $.getJSON('https://davisena.github.io/assets/lang/en.json', function(data) {
     langData = data;
     $.each(langData, function(i, item){
+      console.log(`i:${i} -- item: ${item}`)
       $(`#${i}`).text(item)
     })
   })
