@@ -348,7 +348,8 @@ img {
 }
 .about-us-box-text {
   padding-right: 30px;
-  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .about-us-box-text h3 {
   margin-top: 0;
@@ -462,6 +463,8 @@ img {
 }
 .portfolio-box .resume {
   min-height: 290px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .portfolio-box-date {
   padding-bottom: 10px;
