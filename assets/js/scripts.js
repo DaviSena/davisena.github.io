@@ -46,38 +46,27 @@ jQuery(document).ready(function() {
   });
 
   let langData = 'empty';
-  console.log('teste')
-  $.getJSON('https://davisena.github.io/assets/lang/en.json', function(data) {
+
+  
+  new WOW().init();
+});
+
+function setLanguage(value) {
+  $.getJSON('https://davisena.github.io/assets/lang/'+value+'.json', function(data) {
     langData = data;
     $.each(langData, function(i, item){
-      console.log(`i:${i} -- item: ${item}`)
       if(item.includes("</")){
         $(`#${i}`).html(item)
       } else if(i.includes("input_")) {
         $(`#${i}`).attr("placeholder", item);
       } else if(i.includes("value_")) {
-        console.log("Passou aqui")
         $(`#${i}`).attr("value", item);
       } else {
         $(`#${i}`).text(item)
       }
-      
     })
   })
-
-
-  new WOW().init();
-});
-
-jQuery(window).load(function() {
-  /*
-		Hidden images
-	*/
-  $(".testimonial-image img").attr(
-    "style",
-    "width: auto !important; height: auto !important;"
-  );
-});
+}
 
 $(document).ready(function() {
   if ($("#newContact").length > 0) {
