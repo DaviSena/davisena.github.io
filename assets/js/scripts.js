@@ -51,7 +51,17 @@ jQuery(document).ready(function() {
     langData = data;
     $.each(langData, function(i, item){
       console.log(`i:${i} -- item: ${item}`)
-      $(`#${i}`).text(item)
+      if(item.includes("</")){
+        $(`#${i}`).html(item)
+      } else if(i.includes("input_")) {
+        $(`#${i}`).attr("placeholder", item);
+      } else if(i.includes("value_")) {
+        console.log("Passou aqui")
+        $(`#${i}`).attr("value", item);
+      } else {
+        $(`#${i}`).text(item)
+      }
+      
     })
   })
 
@@ -91,9 +101,9 @@ function contactScript(value) {
   var b = firebase.database().ref("messages");
   $("#newContact").submit(function(a) {
     $(this), console.log("Submit to Firebase");
-    var nameFire = $("#name").val(),
-      emailFire = $("#email").val(),
-      messageFire = $("#message").val(),
+    var nameFire = $("#input_name").val(),
+      emailFire = $("#input_email").val(),
+      messageFire = $("#input_message").val(),
       dateFirebase = new Date().toLocaleString(),
       f = {
         name: nameFire,
