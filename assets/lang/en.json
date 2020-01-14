@@ -5,7 +5,7 @@
     "contact": "Contact",
     "desc": "Web & Mobile Developer",
     "about_area": "About",
-    "about_content": "Graduated in Computer Engineering, I work as a Systems Analyst and Developer at <a href='https://www.bb.com.br/' target='_blank'> Banco do Brasil</a>, in Brasília. Passionate about web and mobile development, podcasts, board games, and role-playing game.",
+    "about_content": "<p id='about_content' class='medium-paragraph'> Graduated in Computer Engineering, I work as a Systems Analyst and Developer at <a href='https://www.bb.com.br/' target='_blank'> Banco do Brasil</a>, in Brasília. Passionate about web and mobile development, podcasts, board games, and role-playing game.</p>",
     "download": "Download Resume",
     "portfolio_area": "Portfolio",
     "portfolio_head": "Take a look at some of the projects I worked on during my career:",
@@ -14,5 +14,12 @@
     "input_name": "Name",
     "input_email": "E-mail",
     "input_message": "Message",
-    "value_submit": "Submit"
+    "value_submit": "Submit",
+    "bb30_head": "Banco do Brasil App 3.0",
+    "bb30_body": "<p id='bb30_body'>Member of the team that implemented version 3.0 by transforming a Native app into a React Native multi-bundle app. Among the features that I implemented I can highlight the Apple Pay, the Attendance Evaluation system and all the loads of applications (<a href='https://play.google.com/store/apps/details?id=br.com.bb.android&hl=en' target='_blank'>Android</a> and <a href='https://apps.apple.com/br/app/banco-do-brasil/id330984271' target='_blank'>iOS</a>) in production during 2019.</p>",
+    "bb20_head": "Banco do Brasil App 2.0",
+    "bb20_body": "Development of features for the Banco do Brasil app, an app with over 15 million users. One of the big demands I made was bringing Apple Pay to this platform.",
+    "invertar_body": "Application created to facilitate the realization and management of the inventory of goods in Banco do Brasil. The solution was developed using React Native being made available for Android and iOS.",
+    "pjud_head": "PJUD - Judicial Research",
+    "pjud_body": "Internal web application designed to include, track and view search results created to provide information for court requests."
 }
