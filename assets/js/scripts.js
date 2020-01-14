@@ -46,7 +46,13 @@ jQuery(document).ready(function() {
   });
 
   let langData = 'empty';
-
+  const lang = navigator.language
+  if(lang.includes("pt")){
+    setLanguage("pt")
+  }else{
+    setLanguage("en")
+  }
+  
   
   new WOW().init();
 });
