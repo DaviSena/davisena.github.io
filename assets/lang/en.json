@@ -5,5 +5,14 @@
     "contact": "Contact",
     "desc": "Web & Mobile Developer",
     "about_area": "About",
-    "about_content": "Formado em Engenharia da Computação, atuo como Analista de Sistemas e Desenvolvedor no <a href='https://www.bb.com.br/' target='_blank'>Banco do Brasil</a>, em Brasília. Apaixonado pelo desenvolvimento web e mobile, podcasts, jogos de tabuleiro e RPG."
+    "about_content": "Graduated in Computer Engineering, I work as a Systems Analyst and Developer at <a href='https://www.bb.com.br/' target='_blank'> Banco do Brasil</a>, in Brasília. Passionate about web and mobile development, podcasts, board games, and role-playing game.",
+    "download": "Download Resume",
+    "portfolio_area": "Portfolio",
+    "portfolio_head": "Take a look at some of the projects I worked on during my career:",
+    "contact_area": "Contact",
+    "contact_head": "Let's work together?",
+    "input_name": "Name",
+    "input_email": "E-mail",
+    "input_message": "Message",
+    "value_submit": "Submit"
 }
