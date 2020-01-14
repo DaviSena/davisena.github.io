@@ -21,5 +21,6 @@
     "bb20_body": "Development of features for the Banco do Brasil app, an app with over 15 million users. One of the big demands I made was bringing Apple Pay to this platform.",
     "invertar_body": "Application created to facilitate the realization and management of the inventory of goods in Banco do Brasil. The solution was developed using React Native being made available for Android and iOS.",
     "pjud_head": "PJUD - Judicial Research",
-    "pjud_body": "Internal web application designed to include, track and view search results created to provide information for court requests."
+    "pjud_body": "Internal web application designed to include, track and view search results created to provide information for court requests.",
+    "msg_sent": "<p id='msg_sent'>Mensagem <strong>enviada</strong>!</p>"
 }
